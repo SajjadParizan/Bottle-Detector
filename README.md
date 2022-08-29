@@ -21,10 +21,6 @@ The repository includes:
 
 
 # Step by Step Detection
-To help with debugging and understanding the model, there are 3 notebooks 
-([inspect_data.ipynb](samples/coco/inspect_data.ipynb), [inspect_model.ipynb](samples/coco/inspect_model.ipynb),
-[inspect_weights.ipynb](samples/coco/inspect_weights.ipynb)) that provide a lot of visualizations and allow running the model step by step to inspect the output at each point. Here are a few examples:
-
 
 
 ## 1. Anchor sorting and filtering
@@ -46,7 +42,7 @@ Often it's useful to inspect the activations at different layers to look for sig
 
 
 ## 5. Weight Histograms
-Another useful debugging tool is to inspect the weight histograms. These are included in the inspect_weights.ipynb notebook.
+Another useful debugging tool is to inspect the weight histograms. 
 
 
 ## 6. Logging to TensorBoard
